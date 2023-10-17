@@ -22,7 +22,7 @@ target("spdlog")
             os.cp("$(projectdir)/Vendor/spdlog/build/Debug/*.lib", "$(projectdir)/lib/")
             os.trymv("$(projectdir)/lib/spdlogd.lib", "$(projectdir)/lib/spdlog.lib")
 
-            os.cp("$(projectdir)/Vendor/SDL/build/Debug/*.pdb", "$(projectdir)/lib/")
+            os.cp("$(projectdir)/Vendor/spdlog/build/Debug/*.pdb", "$(projectdir)/lib/")
             os.trymv("$(projectdir)/lib/spdlogd.pdb", "$(projectdir)/lib/spdlog.pdb")
         else
             os.cp("$(projectdir)/Vendor/spdlog/build/Release/*.lib", "$(projectdir)/lib/")
