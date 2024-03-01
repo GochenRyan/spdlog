@@ -34,3 +34,5 @@ target("spdlog")
             os.rm("$(buildir)/")
         end
     end)
+
+    set_group("Vendor")
